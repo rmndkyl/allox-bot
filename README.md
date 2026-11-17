@@ -1,8 +1,27 @@
 # AlloX Bot
 
-**Automated bot for AlloX AI Agent — Season 1 Genesis campaign.**
+**Versi:** 1.0.0 · **Harga:** Rp 80.000 (~$5) · **Kontak pembelian:** [@rmndkyl](https://t.me/rmndkyl)
 
 AlloX is an AI-powered capital allocation platform that transforms market narratives into diversified, risk-managed portfolios. This bot automates the Season 1 reward farming: daily check-in, initial claim, and chat-to-earn messaging.
+
+## Kebutuhan
+
+| Item | Detail |
+|---|---|
+| Runtime | Node.js 18+ |
+| Wallet | EVM / sesuai chain proyek (kamu sendiri) |
+| Proxy | tidak perlu |
+| Captcha | tidak perlu |
+| Akses | akun proyek yang kamu kelola sendiri |
+
+## Pembayaran
+
+E-Wallet: DANA / GoPay / ShopeePay · Bank: BCA / Seabank · Crypto: contact for wallet address.
+Pembeli menghubungi [@rmndkyl](https://t.me/rmndkyl), kirim bukti transfer, lalu terima license key.
+
+---
+
+**Automated bot for AlloX AI Agent — Season 1 Genesis campaign.**
 
 **Campaign:** Season 1 Genesis  
 **Chain:** Multi-chain (Ethereum, Base, BNB Smart Chain, Solana)  
@@ -46,12 +65,9 @@ npm install
 Copy `.env.example` to `.env` and fill in your wallet:
 
 ```env
-WALLET_ADDRESS=0xd53e7BF4CaBaeAD1d827118965572345f6b8BbCB
 WRAPPED_PRIVATE_KEY=0x...
 API_BASE=https://api.allox.ai
 ```
-
-**Multiple wallets:** Edit `privateKey.txt` (one private key per line). The bot processes all wallets sequentially.
 
 ## Usage
 
